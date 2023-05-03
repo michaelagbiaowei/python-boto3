@@ -38,3 +38,7 @@ DeleteSubnet1 = ec2.delete_subnet(
 DeleteSubnet2 = ec2.delete_subnet(
     SubnetId='string',
 )
+
+# Delete VPC
+Delete_vpc = ec2.Vpc('vpc-0ad2289b8e0a7c4b6')
+Delete_vpc.delete()
