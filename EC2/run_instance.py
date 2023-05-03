@@ -8,6 +8,8 @@ response = instance.run_instances(
             'DeviceName': '/dev/sdh',
             'Ebs': {
                 'VolumeSize': 8,
+                'VolumeType': 'gp2',
+                'DeleteOnTermination': True
             },
         },
     ],
