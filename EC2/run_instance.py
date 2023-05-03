@@ -9,7 +9,7 @@ response = instance.run_instances(
             'Ebs': {
                 'VolumeSize': 8,
                 'VolumeType': 'gp2',
-                'DeleteOnTermination': True
+               'DeleteOnTermination': True
             },
         },
     ],
