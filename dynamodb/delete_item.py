@@ -11,4 +11,4 @@ response = table.delete_item(
     }
 )
 
-print("Response ", response)
+print("Response ", response["RequestId"])
