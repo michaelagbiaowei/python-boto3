@@ -31,7 +31,7 @@ DeletRouteTable2 = ec2.delete_route_table(
     RouteTableId='your_id'
 )
 
-# # DeleteSubnets
+# # Delete Subnets
 DeleteSubnet1 = ec2.delete_subnet(
     SubnetId='string',
 )
