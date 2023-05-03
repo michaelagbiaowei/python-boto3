@@ -6,4 +6,4 @@ response = delete.delete_security_group(
     GroupName='boto-sg',
 )
 
-print(response["RequestId"])
+print(response)

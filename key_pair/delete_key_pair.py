@@ -6,4 +6,4 @@ response = delete.delete_key_pair(
     KeyName = "boto-key"
 )
 
-print(response["RequestId"])
+print(response)
