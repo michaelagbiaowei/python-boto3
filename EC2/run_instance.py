@@ -13,12 +13,12 @@ response = instance.run_instances(
             },
         },
     ],
-    ImageId="ami-066d59f8b1513749d",
+    ImageId="ami-1234567890abcdef",
     KeyName="test",
     InstanceType='t2.micro',
     MaxCount=1,
     MinCount=1,
-    SubnetId='subnet-0900a00a05512fba9',
+    SubnetId='subnet-1234567890abcdef',
     Monitoring={
         'Enabled': True
     },
@@ -26,7 +26,7 @@ response = instance.run_instances(
         'Tenancy': 'default'
     },
     SecurityGroupIds=[
-        'sg-0e538be2d7c3914f0',
+        'sg-1234567890abcdef',
     ],
     TagSpecifications=[
         {
