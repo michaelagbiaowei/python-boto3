@@ -83,9 +83,9 @@ Now, you are all set to create an instance, execute the script from a terminal (
 
     python your-script.py
 
+## **Credits**
 
-
-
+<a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"><b>Boto3 1.26.129 documentation - Amazon Web Services</b></a>
 
 
 
