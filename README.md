@@ -54,7 +54,7 @@ You have now configured credentials for the default profile as well as a default
 
 ## **Using Boto3**
 
-To use Boto3, you must first import it and indicate which service or services you’re going to use:
+To use Boto3, create a .py Script and import boto3 indicating which service or services you’re going to use:
 
     import boto3
 
