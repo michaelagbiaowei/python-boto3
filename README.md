@@ -4,13 +4,11 @@ Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python
 
 This guide details the steps needed to install or update the AWS SDK for Python
 
-## **Installation**
-
-## Requirements to install Boto3
+## **Requirements to install Boto3**
 
 Before installing Boto3, install Python 3.7 or higher
 
-## Install Boto3
+## **Install Boto3**
 
 Install the latest Boto3 release via pip:
 
