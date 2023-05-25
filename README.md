@@ -27,7 +27,7 @@ If your project requires a specific version of Boto3, or has compatibility conce
 
 ## **Configuration**
 
-Before using Boto3, you need to set up authentication credentials for your AWS account using either the <a href="https://console.aws.amazon.com/iam/home"><b>IAM Console</b></a> for all of my projects**or the AWS CLI. You can either choose an existing user or create a new one.
+Before using Boto3, you need to set up authentication credentials for your AWS account using either the <a href="https://console.aws.amazon.com/iam/home"><b>IAM Console</b></a> or the AWS CLI. You can either choose an existing user or create a new one.
 
 For instructions about how to create a user using the IAM Console, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console"><b>Creating IAM users.</b></a> Once the user has been created, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey"><b>Managing access keys</b></a> to learn how to create and retrieve the keys used to authenticate the user.
 
